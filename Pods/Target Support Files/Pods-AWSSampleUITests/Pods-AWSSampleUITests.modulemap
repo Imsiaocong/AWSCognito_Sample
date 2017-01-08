@@ -1,0 +1,6 @@
+framework module Pods_AWSSampleUITests {
+  umbrella header "Pods-AWSSampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

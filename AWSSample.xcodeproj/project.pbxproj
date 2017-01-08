@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3A3200F4F23BE27568A201 /* Pods_AWSSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B9AEEF932BD5B34A34A275 /* Pods_AWSSampleUITests.framework */; };
+		3A4AB74D8CBCB407D20E7EBA /* Pods_AWSSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951E95476DF378B0A38C83AC /* Pods_AWSSampleTests.framework */; };
+		865914EA1E15638800E5283B /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865914E91E15638700E5283B /* AWSCore.framework */; };
+		869A204A1E217A7000DE8257 /* TextFieldEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869A20491E217A7000DE8257 /* TextFieldEffects.framework */; };
+		86A40D5F1E141B1200FD7A3F /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A40D5E1E141B1200FD7A3F /* Configuration.swift */; };
+		86FE97861E0EC18000DC32D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE97851E0EC18000DC32D3 /* AppDelegate.swift */; };
+		86FE97881E0EC18000DC32D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE97871E0EC18000DC32D3 /* ViewController.swift */; };
+		86FE978B1E0EC18000DC32D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86FE97891E0EC18000DC32D3 /* Main.storyboard */; };
+		86FE978D1E0EC18000DC32D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86FE978C1E0EC18000DC32D3 /* Assets.xcassets */; };
+		86FE97901E0EC18000DC32D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86FE978E1E0EC18000DC32D3 /* LaunchScreen.storyboard */; };
+		86FE979B1E0EC18000DC32D3 /* AWSSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE979A1E0EC18000DC32D3 /* AWSSampleTests.swift */; };
+		86FE97A61E0EC18100DC32D3 /* AWSSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE97A51E0EC18100DC32D3 /* AWSSampleUITests.swift */; };
+		FE92D1F2AD6E9E39C54A64A0 /* Pods_AWSSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84B01967BA18D2B39EA29C5 /* Pods_AWSSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86FE97971E0EC18000DC32D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86FE977A1E0EC18000DC32D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86FE97811E0EC18000DC32D3;
+			remoteInfo = AWSSample;
+		};
+		86FE97A21E0EC18100DC32D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86FE977A1E0EC18000DC32D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86FE97811E0EC18000DC32D3;
+			remoteInfo = AWSSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83B9AEEF932BD5B34A34A275 /* Pods_AWSSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		865914E01E1562CE00E5283B /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = "Pods/../build/Debug-iphoneos/AWSCore/AWSCore.framework"; sourceTree = "<group>"; };
+		865914E91E15638700E5283B /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = "../../Library/Developer/Xcode/DerivedData/AWSSample-gkoaitsixnvrxeafighetrajdkzq/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework"; sourceTree = "<group>"; };
+		869A20491E217A7000DE8257 /* TextFieldEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TextFieldEffects.framework; path = "../../Library/Developer/Xcode/DerivedData/AWSSample-gkoaitsixnvrxeafighetrajdkzq/Build/Products/Debug-iphonesimulator/TextFieldEffects/TextFieldEffects.framework"; sourceTree = "<group>"; };
+		86A40D5E1E141B1200FD7A3F /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		86FE97821E0EC18000DC32D3 /* AWSSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86FE97851E0EC18000DC32D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86FE97871E0EC18000DC32D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86FE978A1E0EC18000DC32D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86FE978C1E0EC18000DC32D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86FE978F1E0EC18000DC32D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86FE97911E0EC18000DC32D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86FE97961E0EC18000DC32D3 /* AWSSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86FE979A1E0EC18000DC32D3 /* AWSSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSSampleTests.swift; sourceTree = "<group>"; };
+		86FE979C1E0EC18100DC32D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86FE97A11E0EC18100DC32D3 /* AWSSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86FE97A51E0EC18100DC32D3 /* AWSSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSSampleUITests.swift; sourceTree = "<group>"; };
+		86FE97A71E0EC18100DC32D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951E95476DF378B0A38C83AC /* Pods_AWSSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96299B721972C18A035B1DA1 /* Pods-AWSSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSSampleTests/Pods-AWSSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		96D68EE7C935374A584AB1CF /* Pods-AWSSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSSampleUITests/Pods-AWSSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BC11524D555F3E8EA2E92CE /* Pods-AWSSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSSample/Pods-AWSSample.release.xcconfig"; sourceTree = "<group>"; };
+		A84B01967BA18D2B39EA29C5 /* Pods_AWSSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA91F49F23EA7C619A1B740D /* Pods-AWSSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSSample/Pods-AWSSample.debug.xcconfig"; sourceTree = "<group>"; };
+		BE223DA93DF06597AA818EEE /* Pods-AWSSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSSampleUITests/Pods-AWSSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F434BA24FA03A9D2EE5450C6 /* Pods-AWSSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSSampleTests/Pods-AWSSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86FE977F1E0EC18000DC32D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869A204A1E217A7000DE8257 /* TextFieldEffects.framework in Frameworks */,
+				865914EA1E15638800E5283B /* AWSCore.framework in Frameworks */,
+				FE92D1F2AD6E9E39C54A64A0 /* Pods_AWSSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FE97931E0EC18000DC32D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4AB74D8CBCB407D20E7EBA /* Pods_AWSSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FE979E1E0EC18100DC32D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3A3200F4F23BE27568A201 /* Pods_AWSSampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		218C3DA93D6687EB62685709 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA91F49F23EA7C619A1B740D /* Pods-AWSSample.debug.xcconfig */,
+				9BC11524D555F3E8EA2E92CE /* Pods-AWSSample.release.xcconfig */,
+				F434BA24FA03A9D2EE5450C6 /* Pods-AWSSampleTests.debug.xcconfig */,
+				96299B721972C18A035B1DA1 /* Pods-AWSSampleTests.release.xcconfig */,
+				96D68EE7C935374A584AB1CF /* Pods-AWSSampleUITests.debug.xcconfig */,
+				BE223DA93DF06597AA818EEE /* Pods-AWSSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		862D0F6D8FB6B7BC369507CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				869A20491E217A7000DE8257 /* TextFieldEffects.framework */,
+				865914E91E15638700E5283B /* AWSCore.framework */,
+				865914E01E1562CE00E5283B /* AWSCore.framework */,
+				A84B01967BA18D2B39EA29C5 /* Pods_AWSSample.framework */,
+				951E95476DF378B0A38C83AC /* Pods_AWSSampleTests.framework */,
+				83B9AEEF932BD5B34A34A275 /* Pods_AWSSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86A40D5D1E141AF500FD7A3F /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				86A40D5E1E141B1200FD7A3F /* Configuration.swift */,
+			);
+			name = Configurations;
+			path = AWSSample;
+			sourceTree = "<group>";
+		};
+		86FE97791E0EC18000DC32D3 = {
+			isa = PBXGroup;
+			children = (
+				86FE97841E0EC18000DC32D3 /* AWSSample */,
+				86A40D5D1E141AF500FD7A3F /* Configurations */,
+				86FE97991E0EC18000DC32D3 /* AWSSampleTests */,
+				86FE97A41E0EC18100DC32D3 /* AWSSampleUITests */,
+				86FE97831E0EC18000DC32D3 /* Products */,
+				218C3DA93D6687EB62685709 /* Pods */,
+				862D0F6D8FB6B7BC369507CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86FE97831E0EC18000DC32D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86FE97821E0EC18000DC32D3 /* AWSSample.app */,
+				86FE97961E0EC18000DC32D3 /* AWSSampleTests.xctest */,
+				86FE97A11E0EC18100DC32D3 /* AWSSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86FE97841E0EC18000DC32D3 /* AWSSample */ = {
+			isa = PBXGroup;
+			children = (
+				86FE97851E0EC18000DC32D3 /* AppDelegate.swift */,
+				86FE97871E0EC18000DC32D3 /* ViewController.swift */,
+				86FE97891E0EC18000DC32D3 /* Main.storyboard */,
+				86FE978C1E0EC18000DC32D3 /* Assets.xcassets */,
+				86FE978E1E0EC18000DC32D3 /* LaunchScreen.storyboard */,
+				86FE97911E0EC18000DC32D3 /* Info.plist */,
+			);
+			path = AWSSample;
+			sourceTree = "<group>";
+		};
+		86FE97991E0EC18000DC32D3 /* AWSSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				86FE979A1E0EC18000DC32D3 /* AWSSampleTests.swift */,
+				86FE979C1E0EC18100DC32D3 /* Info.plist */,
+			);
+			path = AWSSampleTests;
+			sourceTree = "<group>";
+		};
+		86FE97A41E0EC18100DC32D3 /* AWSSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86FE97A51E0EC18100DC32D3 /* AWSSampleUITests.swift */,
+				86FE97A71E0EC18100DC32D3 /* Info.plist */,
+			);
+			path = AWSSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86FE97811E0EC18000DC32D3 /* AWSSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86FE97AA1E0EC18100DC32D3 /* Build configuration list for PBXNativeTarget "AWSSample" */;
+			buildPhases = (
+				F01A0CFEC049BA907E466D9B /* [CP] Check Pods Manifest.lock */,
+				86FE977E1E0EC18000DC32D3 /* Sources */,
+				86FE977F1E0EC18000DC32D3 /* Frameworks */,
+				86FE97801E0EC18000DC32D3 /* Resources */,
+				271F368E5FD00D0AD2A2ABB6 /* [CP] Embed Pods Frameworks */,
+				3DB2E85FCB78E2575CFFE61C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWSSample;
+			productName = AWSSample;
+			productReference = 86FE97821E0EC18000DC32D3 /* AWSSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86FE97951E0EC18000DC32D3 /* AWSSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86FE97AD1E0EC18100DC32D3 /* Build configuration list for PBXNativeTarget "AWSSampleTests" */;
+			buildPhases = (
+				9A647730798BF90966945BE7 /* [CP] Check Pods Manifest.lock */,
+				86FE97921E0EC18000DC32D3 /* Sources */,
+				86FE97931E0EC18000DC32D3 /* Frameworks */,
+				86FE97941E0EC18000DC32D3 /* Resources */,
+				780EC7D630AE7473BD720686 /* [CP] Embed Pods Frameworks */,
+				AA7AB7F7F1149B0ABD08911A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86FE97981E0EC18000DC32D3 /* PBXTargetDependency */,
+			);
+			name = AWSSampleTests;
+			productName = AWSSampleTests;
+			productReference = 86FE97961E0EC18000DC32D3 /* AWSSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86FE97A01E0EC18100DC32D3 /* AWSSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86FE97B01E0EC18100DC32D3 /* Build configuration list for PBXNativeTarget "AWSSampleUITests" */;
+			buildPhases = (
+				5C44D84E621A5333228F9045 /* [CP] Check Pods Manifest.lock */,
+				86FE979D1E0EC18100DC32D3 /* Sources */,
+				86FE979E1E0EC18100DC32D3 /* Frameworks */,
+				86FE979F1E0EC18100DC32D3 /* Resources */,
+				7A7B85BF50566B519C11B351 /* [CP] Embed Pods Frameworks */,
+				C4E5BBD611B00803DF6510B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86FE97A31E0EC18100DC32D3 /* PBXTargetDependency */,
+			);
+			name = AWSSampleUITests;
+			productName = AWSSampleUITests;
+			productReference = 86FE97A11E0EC18100DC32D3 /* AWSSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86FE977A1E0EC18000DC32D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Di Wang";
+				TargetAttributes = {
+					86FE97811E0EC18000DC32D3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = P37972B7HV;
+						ProvisioningStyle = Automatic;
+					};
+					86FE97951E0EC18000DC32D3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = P37972B7HV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86FE97811E0EC18000DC32D3;
+					};
+					86FE97A01E0EC18100DC32D3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = P37972B7HV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86FE97811E0EC18000DC32D3;
+					};
+				};
+			};
+			buildConfigurationList = 86FE977D1E0EC18000DC32D3 /* Build configuration list for PBXProject "AWSSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86FE97791E0EC18000DC32D3;
+			productRefGroup = 86FE97831E0EC18000DC32D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86FE97811E0EC18000DC32D3 /* AWSSample */,
+				86FE97951E0EC18000DC32D3 /* AWSSampleTests */,
+				86FE97A01E0EC18100DC32D3 /* AWSSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86FE97801E0EC18000DC32D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FE97901E0EC18000DC32D3 /* LaunchScreen.storyboard in Resources */,
+				86FE978D1E0EC18000DC32D3 /* Assets.xcassets in Resources */,
+				86FE978B1E0EC18000DC32D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FE97941E0EC18000DC32D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FE979F1E0EC18100DC32D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		271F368E5FD00D0AD2A2ABB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSample/Pods-AWSSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DB2E85FCB78E2575CFFE61C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSample/Pods-AWSSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C44D84E621A5333228F9045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		780EC7D630AE7473BD720686 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSampleTests/Pods-AWSSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A7B85BF50566B519C11B351 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSampleUITests/Pods-AWSSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A647730798BF90966945BE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA7AB7F7F1149B0ABD08911A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSampleTests/Pods-AWSSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E5BBD611B00803DF6510B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSampleUITests/Pods-AWSSampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F01A0CFEC049BA907E466D9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86FE977E1E0EC18000DC32D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A40D5F1E141B1200FD7A3F /* Configuration.swift in Sources */,
+				86FE97881E0EC18000DC32D3 /* ViewController.swift in Sources */,
+				86FE97861E0EC18000DC32D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FE97921E0EC18000DC32D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FE979B1E0EC18000DC32D3 /* AWSSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FE979D1E0EC18100DC32D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FE97A61E0EC18100DC32D3 /* AWSSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86FE97981E0EC18000DC32D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86FE97811E0EC18000DC32D3 /* AWSSample */;
+			targetProxy = 86FE97971E0EC18000DC32D3 /* PBXContainerItemProxy */;
+		};
+		86FE97A31E0EC18100DC32D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86FE97811E0EC18000DC32D3 /* AWSSample */;
+			targetProxy = 86FE97A21E0EC18100DC32D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86FE97891E0EC18000DC32D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86FE978A1E0EC18000DC32D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86FE978E1E0EC18000DC32D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86FE978F1E0EC18000DC32D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86FE97A81E0EC18100DC32D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86FE97A91E0EC18100DC32D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86FE97AB1E0EC18100DC32D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA91F49F23EA7C619A1B740D /* Pods-AWSSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P37972B7HV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AWSCore",
+				);
+				INFOPLIST_FILE = AWSSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd1998313.AWSSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		86FE97AC1E0EC18100DC32D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC11524D555F3E8EA2E92CE /* Pods-AWSSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P37972B7HV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AWSCore",
+				);
+				INFOPLIST_FILE = AWSSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd1998313.AWSSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		86FE97AE1E0EC18100DC32D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F434BA24FA03A9D2EE5450C6 /* Pods-AWSSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P37972B7HV;
+				INFOPLIST_FILE = AWSSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd1998313.AWSSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSSample.app/AWSSample";
+			};
+			name = Debug;
+		};
+		86FE97AF1E0EC18100DC32D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96299B721972C18A035B1DA1 /* Pods-AWSSampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P37972B7HV;
+				INFOPLIST_FILE = AWSSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd1998313.AWSSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSSample.app/AWSSample";
+			};
+			name = Release;
+		};
+		86FE97B11E0EC18100DC32D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D68EE7C935374A584AB1CF /* Pods-AWSSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P37972B7HV;
+				INFOPLIST_FILE = AWSSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd1998313.AWSSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AWSSample;
+			};
+			name = Debug;
+		};
+		86FE97B21E0EC18100DC32D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE223DA93DF06597AA818EEE /* Pods-AWSSampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P37972B7HV;
+				INFOPLIST_FILE = AWSSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wd1998313.AWSSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AWSSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86FE977D1E0EC18000DC32D3 /* Build configuration list for PBXProject "AWSSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FE97A81E0EC18100DC32D3 /* Debug */,
+				86FE97A91E0EC18100DC32D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86FE97AA1E0EC18100DC32D3 /* Build configuration list for PBXNativeTarget "AWSSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FE97AB1E0EC18100DC32D3 /* Debug */,
+				86FE97AC1E0EC18100DC32D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86FE97AD1E0EC18100DC32D3 /* Build configuration list for PBXNativeTarget "AWSSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FE97AE1E0EC18100DC32D3 /* Debug */,
+				86FE97AF1E0EC18100DC32D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86FE97B01E0EC18100DC32D3 /* Build configuration list for PBXNativeTarget "AWSSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FE97B11E0EC18100DC32D3 /* Debug */,
+				86FE97B21E0EC18100DC32D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86FE977A1E0EC18000DC32D3 /* Project object */;
+}
