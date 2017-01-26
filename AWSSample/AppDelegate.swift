@@ -9,6 +9,7 @@
 import UIKit
 import AWSCore
 import AWSCognito
+import AWSCognitoIdentityProvider
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,6 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let configuration = AWSServiceConfiguration(region: AWSCognitoUserPoolRegion, credentialsProvider: credentialsProvider)
         AWSServiceManager.default().defaultServiceConfiguration = configuration
         return true
+    }
+    
+     func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.portrait
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
